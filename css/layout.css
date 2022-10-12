@@ -1,0 +1,161 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  main {
+    color: #202020;
+    width: 89%;
+    margin: auto;
+    z-index: 0;
+  }
+  
+  header {
+    background-color: #ff9b29;
+    width: 100%;
+  }
+  
+  footer {
+    padding: 1vw;
+    text-align: center;
+    background-color: whitesmoke;
+    color: #a01010;
+    clear: both;
+  }
+  
+  footer h4 {
+    color: white;
+  }
+  
+  /* heading styles */
+  h1 {
+    font-family: cursive;
+    font-size: 5vw;
+    color: whitesmoke;
+    text-align: center;
+    text-shadow: 3px 2px 5px #202020;
+    padding: 2vw;
+    margin: 0px;
+  }
+  h2 {
+    font-family: cursive;
+    font-size: 3vw;
+    color: #4e2585;
+    text-align: left;
+    text-shadow: 3px 2px 5px #202020;
+    padding: 2vw;
+          margin: 0px}
+  h2,
+  h3,
+  h4,
+  h5 {
+    color: #c04402;
+    font-family: cursive;
+    padding-top: 1em;
+  }
+  
+  p {
+    line-height: 1.35;
+    margin-top: 1em;
+  }
+  
+  /* figures and images */
+  section {
+    position: relative;
+    width: 100%;
+  }
+  
+  article {
+    float: left;
+    border: solid medium #092834;
+    border-radius: 10px;
+    width: 45%;
+    margin: 2%;
+    margin-top: 1vw;
+  }
+  
+  article h3 {
+    font-size: 2vw;
+    padding: 20px 10vw 30px;
+    background-color: #dbce14;
+    border-radius: 7px 7px 0 0;
+  }
+  
+  article > p {
+    font-size: .9vw;
+    margin: 20px 50px;
+  }
+  
+  figure {
+    float: left;
+    margin: 2vh;
+  }
+  
+  article:nth-child(even) > figure {
+    float: right;
+  }
+  
+  figure img {
+    display: block;
+    height: 185px;
+    width: 185px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  figcaption {
+    text-align: center;
+    clear: both;
+    color: #d1390a;
+  }
+  
+  /* link styles */
+  nav {
+    font-family: "Architects Daughter", cursive;
+    background-color: #854204;
+    overflow: visible;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+  }
+  
+  nav a {
+    padding: 10px;
+    color: #c04402;
+    text-decoration: none;
+    text-align: center;
+    font-size: 2vw;
+  }
+  
+  nav a:visited {
+    color: #092834;
+  }
+  
+  nav a:hover {
+    color: #f0f7d4;
+    background-color: #092834;
+  }
+  
+  nav a.active {
+    color: #2e6c85;
+    background-color: whitesmoke;
+  }
